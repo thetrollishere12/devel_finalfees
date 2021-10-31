@@ -1,0 +1,148 @@
+@media only screen and (min-width:0px) {
+	.setting-container{
+        margin: 10px auto;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .setting-container{
+        margin: 25px auto;
+    }
+}
+
+.setting-container{
+	max-width: 800px;
+	background: white;
+	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .25);
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.card_img{
+	width: 40px;
+}
+
+table{
+	text-align: left;
+	width: 100%;
+}
+
+table tr th{
+	font-weight: normal;
+	padding: 10px 0px;
+}
+
+tr th{
+  border-bottom:solid 1px #ededed;
+}
+
+table tr th:first-child{
+	padding: 0px 20px 0px 5px;
+}
+
+.edit_p_btn{
+	border: 1px solid transparent;
+	background: #3490dc;
+	transition: .3s;
+	border-radius: 3px;
+	padding: 4px 12px;
+	cursor: pointer;
+	color:white;
+}
+
+.edit_p_btn:hover{
+	color: #3490dc;
+	border: 1px solid #3490dc;
+	background: white;
+}
+
+/*Regular*/
+.regular-title{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.regular-b{
+	color: #f99a36;
+	transition: .3s;
+	width: 100%;
+	background: white;
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .25);
+}
+
+.regular-b:hover{
+	background: #f99a36;
+	color: white;
+}
+
+.regular-p{
+	padding: 5px 0px;
+}
+
+.selected{
+	background:#f99a36;
+	color: white;
+}
+/* cancelled*/
+.sub_end_name{
+	padding: 5px;
+	border-bottom:solid 1px #ededed;
+}
+
+.sub_end_date{
+	padding:5px 5px 15px 5px;
+}
+
+/*alert*/
+.status-alert{
+	max-width: 800px;
+	margin:10px auto -15px auto;
+	background: rgb(212, 237, 218);
+	border-radius: 5px;
+	padding: 8px 16px;
+	display: none;
+}
+
+input{
+	width: 20%;
+	pointer-events: none;
+	padding: 2px;
+	margin-right: 1px;
+	border:solid 1px #eaeaea;
+	border-radius: 4px;
+}
+
+.tax_btn{
+
+	border: 1px solid transparent;
+	width: 50px;
+	transition: .3s;
+	border-radius: 3px;
+	padding: 4px 0px;
+	cursor: pointer;
+	color:white;
+}
+
+.tax_save{
+	width: 50px;
+	background: rgb(76, 175, 80);
+	color:white;
+}
+
+.tax_save:hover{
+	color: rgb(76, 175, 80);
+	background: white;
+	border:solid 1px rgb(76, 175, 80);
+}
+
+.premium{
+	color: #5aa5e2;
+	font-weight: bold;
+}
+
+.regular{
+	color: #f99a36;
+	font-weight: bold;
+}

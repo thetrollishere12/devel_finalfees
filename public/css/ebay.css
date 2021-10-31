@@ -1,0 +1,99 @@
+.main-container h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background: #86b817
+}
+
+.ebay-inner {
+    padding: 25px;
+    font-size: 17px;
+    background: white
+}
+
+#category-slide {
+    display: none
+}
+
+.details-container h2 {
+    color: white;
+    background: #86b817
+}
+
+.half-padding {
+    padding-bottom: 6px;
+}
+
+.upgrade-container {
+    margin: 0 0 15px 0
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin: 6px 0 6px 36.5px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    background-color: #eee
+}
+
+.container:hover input~.checkmark {
+    background-color: #ccc
+}
+
+.container input:checked~.checkmark {
+    background-color: #86b817
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none
+}
+
+.container input:checked~.checkmark:after {
+    display: block
+}
+
+.container .checkmark:after {
+    left: 8px;
+    top: 3px;
+    width: 7px;
+    height: 14px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.upgrade-cost {
+    color: #86b817;
+    font-size: 12px
+}
+
+.grey {
+    color: #cecece
+}

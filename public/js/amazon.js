@@ -1,0 +1,16 @@
+$(document).ready(function(){calculations();$('#main-calculator').children().keyup(function(e){calculations()});$('button[name=p-reset]').click(function(){$('input[name=sold_price],input[name=shipping_charge],input[name=shipping_cost],input[name=item_cost]').val(null);calculations()})
+$("select").change(function(){calculations()});function calculations(){var options={  useEasing:!0,  useGrouping:!0,  separator:',',  decimal:'.',};var sold_price=parseFloat($('input[name=sold_price]').val()||0);var shipping_charge=parseFloat($('input[name=shipping_charge]').val()||0);var shipping_cost=parseFloat($('input[name=shipping_cost]').val()||0);var item_cost=parseFloat($('input[name=item_cost]').val()||0);var tax=parseFloat($('input[name=item_tax]').val()/100||0)
+var closing_fee=0;var product=$("select[name=product_type]").find(":selected").text();var variable_closing_fee=0;var min_ref_fees=0;var total=sold_price+shipping_charge;if(total.toFixed(2)>0){closing_fee=.99;if(amazon_ref_fees<.30){min_ref_fees=.30}else{min_ref_fees=0}}
+switch(product){case "Electronics Accessories":if(sold_price>100){var referral_fee=8}else{var referral_fee=15}
+break;case "Major Appliances":if(sold_price>300){var referral_fee=8}else{var referral_fee=15}
+break;case "Shoes, Handbags & Sunglasses":if(sold_price>75){var referral_fee=18}else{var referral_fee=15}
+break;case "Watches":if(sold_price>1500){var referral_fee=3}else{var referral_fee=16}
+break;default:var referral_fee=parseFloat($("select[name=product_type]").find(":selected").val()||0)/100}
+switch(product){case"Collectible Books":case"Music":case"Collectible Coins":case"Entertainment Collectibles":case"Fine Art":case"Gift Cards":case"Grocery & Gourmet Food":case"Sports Collectibles":min_ref_fees=0;break}
+switch(product){case"Books":case"DVD":case"Music":case"Software & Computer/Video Games":case"Video":case"Video Game Consoles":variable_closing_fee=1.80;break}
+var amazon_ref_fees=total*referral_fee;var costfees=amazon_ref_fees+closing_fee+min_ref_fees+variable_closing_fee+item_cost+shipping_cost;if(costfees<0){costfees=0}
+var profit_number=(total-costfees).toFixed(2);if(profit_number<0){var tax=0}
+var costfees=costfees+(profit_number*tax);var profit_total=profit_number-(profit_number*tax);var return_total=(profit_total/costfees)*100||0;var margin_total=(profit_total/total)*100||0;if(profit_total<0){margin_total=0;return_total=0}
+if(margin_total===Infinity||margin_total===-Infinity){margin_total=0}
+if(return_total===Infinity||return_total===-Infinity){return_total=0}
+profit_c(profit_total,return_total,margin_total);var main_fees=new CountUp('main-fees',0,costfees,2,.2,options);var main_tax=new CountUp('main-tax',0,profit_number*tax,2,.2,options);var main_return=new CountUp('main-return',0,return_total,2,.2,options);var main_margin=new CountUp('main-margin',0,margin_total,2,.2,options);var main_profit=new CountUp('main-profit',0,profit_total,2,.2,options);graph(sold_price,shipping_charge,shipping_cost,item_cost,main_tax.endVal,0,0,main_fees.endVal,main_profit.endVal);if(!main_fees.error){main_fees.start();main_tax.start();main_return.start();main_margin.start();main_profit.start()}else{console.error(main_fees.error)}}})

@@ -1,0 +1,7 @@
+Sales
+Date,Platform,Currency,Quantity,Name,"Sold Price","Item Cost","Shipping Charge","Shipping Cost",Fees,"Other Fees","Processing Fee",Tax,Profit
+2021-06-18,amazon,$,1,"Brandon Huynh",123.00,3.00,1231.00,131.00,744.29,0.00,0.00,0.00,609.71
+
+Expenses
+Date,Currency,Name,Description,Amount,Tax,Account
+2021-07-22,$,teset123,tet1213,23.00,0.46,"310 - Cost Of Goods Sold"

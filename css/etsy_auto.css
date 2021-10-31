@@ -1,0 +1,235 @@
+@media only screen and (min-width: 0) {
+    .auto-inner {
+        display: block;
+    }
+    .auto-container {
+        width: 100%;
+        padding: 10px 0 0 0;
+    }
+    .auto-list-container {
+        width: 100%;
+    }
+    .sheet-ul {
+        height: 25vh;
+    }
+    .auto-grid {
+        margin: 10px 0 0 0;
+    }
+    .billing-grid {
+        margin: 10px 0 0 0;
+    }
+}
+@media only screen and (min-width: 1100px) {
+    .auto-inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    .auto-container {
+        width: 87%;
+        padding: 0 5px;
+    }
+    .auto-list-container {
+        width: 13%;
+    }
+    .sheet-ul {
+        height: 50vh;
+    }
+    .auto-grid {
+        margin: 0;
+    }
+    .billing-grid {
+        margin: 0;
+    }
+}
+main {
+    padding: 10px;
+}
+.auto-container {
+    position: relative;
+}
+.load_ctn {
+    z-index: 15;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: 100%;
+}
+.preloader {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+}
+.auto-list-container {
+    border: solid 1px rgba(0, 0, 0, 0.25);
+    background: #fff;
+    height: 0%;
+}
+.auto-grid::-webkit-scrollbar,
+.auto-summary::-webkit-scrollbar,
+.billing-grid::-webkit-scrollbar,
+.filter-container::-webkit-scrollbar {
+    height: 7px;
+}
+.sheet-ul::-webkit-scrollbar {
+    width: 8px;
+}
+.auto-grid::-webkit-scrollbar-track,
+.auto-summary::-webkit-scrollbar-track,
+.billing-grid::-webkit-scrollbar-track,
+.filter-container::-webkit-scrollbar-track,
+.sheet-ul::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.auto-grid::-webkit-scrollbar-thumb,
+.auto-summary::-webkit-scrollbar-thumb,
+.billing-grid::-webkit-scrollbar-thumb,
+.filter-container::-webkit-scrollbar-thumb,
+.sheet-ul::-webkit-scrollbar-thumb {
+    background: #888;
+}
+.auto-grid::-webkit-scrollbar-thumb:hover,
+.auto-summary::-webkit-scrollbar-thumb:hover,
+.billing-grid::-webkit-scrollbar-thumb:hover,
+.filter-container::-webkit-scrollbar-thumb:hover,
+.sheet-ul::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.auto-list {
+    position: relative;
+    padding-bottom: 42px;
+    background: #fff;
+}
+.auto-list h2 {
+    padding: 5px 0 5px 10px;
+    font-weight: 400;
+    font-size: 20px;
+    border-bottom: solid 1px #eaeaea;
+}
+.sheet-ul {
+    overflow-y: scroll;
+}
+#auto_title {
+    min-width: 50%;
+}
+#auto_title div {
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px 15px;
+}
+.h-grey:hover {
+    cursor: pointer;
+    background: #e8e8e8;
+}
+.b-click {
+    background: #3490dc;
+    color: #fff;
+}
+.auto-grid {
+    font-size: 13px;
+    overflow-x: scroll;
+    border: solid 1px rgba(0, 0, 0, 0.25);
+    padding: 2.5px;
+}
+.billing-grid {
+    font-size: 13px;
+    overflow-x: scroll;
+    border: solid 1px rgba(0, 0, 0, 0.25);
+    padding: 2.5px;
+}
+ul button {
+    display: block;
+}
+.sales_edit {
+    background: #3490dc;
+    color: #fff;
+    border: none;
+    width: 40px;
+    padding: 3px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0.5px 1px;
+}
+.sales_delete {
+    background: #c82333;
+    color: #fff;
+    border: none;
+    padding: 3px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0.5px 1px;
+}
+.empty_btn {
+    background: #3490dc;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.select-blue {
+    background: #3490dc;
+    color: #fff;
+}
+.msg {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.05);
+    z-index: 999;
+}
+.msg-success {
+    background-color: #28a745;
+}
+.msg-warning {
+    color: #6d5200;
+    background-color: #ffc107;
+}
+.msg-danger {
+    background-color: #dc3545;
+}
+.msg-info {
+    background-color: #17a2b8;
+}
+.animate {
+    opacity: 0;
+    transition: all 1s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.animate.active {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%);
+}
+.slide-in-down {
+    transform: translateY(-100%) translateX(-50%);
+}
+.summary-ebay {
+    background: #3490dc !important;
+    color: #fff !important;
+}
+.add_account {
+    background: #3490dc;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    padding: 5px 15px;
+    cursor: pointer;
+    outline: 0;
+}
+.auto-grid2 {
+    font-size: 13px;
+    border: solid 1px rgba(0, 0, 0, 0.25);
+    padding: 2.5px;
+}

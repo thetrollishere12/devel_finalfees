@@ -1,0 +1,9 @@
+User-agent:*
+Disallow: /css
+Disallow: /image
+Disallow: /include
+Disallow: /js
+Disallow: /fonts
+Disallow: /error.php
+
+Sitemap:https://finalfees.com/new/sitemap.xml

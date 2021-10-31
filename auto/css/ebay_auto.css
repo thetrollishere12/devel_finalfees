@@ -1,0 +1,57 @@
+
+
+
+
+
+
+
+
+  /* message */
+  .msg {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.05);
+    z-index: 999;
+  }
+
+  .msg-success {
+    background-color: #28a745;
+  }
+
+  .msg-warning {
+    color: #6d5200;
+    background-color: #ffc107;
+  }
+
+  .msg-danger {
+    background-color: #dc3545;
+  }
+
+  .msg-info {
+    background-color: #17a2b8;
+  }
+
+  /*fade*/
+  .animate {
+    opacity: 0;
+    transition: all 1s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  .animate.active {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .slide-in-down {
+    transform: translateY(-100%) translateX(-50%);
+  }

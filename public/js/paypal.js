@@ -1,0 +1,13 @@
+$(document).ready(function(){calculations();$('#main-calculator').children().keyup(function(){calculations()});$('button[name=p-reset]').click(function(){$('input[name=sold_price],input[name=name]').val(null);$('input[name=item_tax]').val($('input[name=item_tax]').attr('id'));$("select[name=paypal-rate]").val(1);var value=$("select[name=paypal-rate]").find(":selected").text().split('+');$('input[name=percent]').val(parseFloat(value[0].replace("%","")));$('input[name=standard]').val(parseFloat(value[1].replace("$","")));calculations()})
+$('button[name=p-edit]').click(function(){if($(this).text()=="Edit Fees"){$('.standard input').each(function(){$(this).prop("disabled",!1)});$('.standard').slideDown();$(this).text('Done Edit')}else{$('.standard input').each(function(){$(this).prop("disabled",!0)});$(this).text('Edit Fees');$('.standard').slideUp()}});$("select").change(function(){var value=$("select[name=paypal-rate]").find(":selected").text().split('+');$('input[name=percent]').val(parseFloat(value[0].replace("%","")));$('input[name=standard]').val(parseFloat(value[1].replace("$","")));calculations()});function calculations(){var options={  
+useEasing:!0,  useGrouping:!0,  separator:',',  decimal:'.',};var total=parseFloat($('input[name=sold_price]').val()||0);var percent=$('input[name=percent]').val()/100;var tax=parseFloat($('input[name=item_tax]').val()/100||0)
+var flat_fee=0;$('.p-fees-percentage').text((total*percent).toFixed(2));if(total.toFixed(2)>0){var flat_fee=parseFloat($('input[name=standard]').val()||0)}
+var costfees=total*percent+flat_fee;if(costfees<0){costfees=0}
+var profit_number=(total-costfees).toFixed(2);if(profit_number<0){var tax=0}
+var profit_total=profit_number-(profit_number*tax);var return_total=(profit_total/costfees)*100||0;var margin_total=(profit_total/total)*100||0;if(profit_total<0){margin_total=0;return_total=0}
+if(margin_total===Infinity||margin_total===-Infinity){margin_total=0}
+if(return_total===Infinity||return_total===-Infinity){return_total=0}
+profit_c(profit_total,return_total,margin_total);var main_tax=new CountUp('main-tax',0,profit_number*tax,2,.2,options);var main_fees=new CountUp('p-fees',0,total*percent+flat_fee,2,.2,options);var main_return=new CountUp('main-return',0,return_total,2,.2,options);var main_margin=new CountUp('main-margin',0,margin_total,2,.2,options);var main_profit=new CountUp('main-profit',0,profit_total,2,.2,options);graph(total,0,0,0,main_tax.endVal,0,0,main_fees.endVal,main_profit.endVal);if(!main_profit.error){  
+main_profit.start();main_margin.start();main_return.start();main_fees.start()
+main_tax.start()}else{  
+console.error(main_profit.error)}}})

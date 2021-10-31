@@ -1,0 +1,259 @@
+[18-Jul-2019 04:15:51 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_49c6ed75bc8e18bf52c541f173a414b0, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 04:15:51 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 04:15:51 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 56
+[18-Jul-2019 04:15:51 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 04:15:51 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 04:15:51 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 04:15:51 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 04:15:51 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 04:15:51 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 04:17:58 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_49c6ed75bc8e18bf52c541f173a414b0, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 04:17:58 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 04:17:58 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 56
+[18-Jul-2019 04:17:58 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 04:17:58 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 04:17:58 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 04:17:58 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 04:17:58 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 04:17:58 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 04:24:25 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_49c6ed75bc8e18bf52c541f173a414b0, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 04:24:25 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 04:24:25 America/New_York] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/finavulq/public_html/demo_app/Logout.php on line 15
+[18-Jul-2019 04:24:32 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_beaa096fd2884daa1e9faa405fe27fb7, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 04:24:32 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 04:24:32 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 56
+[18-Jul-2019 04:24:32 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 04:24:32 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 04:24:32 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 04:24:32 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 04:24:32 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 04:24:32 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 04:24:48 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_beaa096fd2884daa1e9faa405fe27fb7, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 04:24:48 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 04:24:48 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 56
+[18-Jul-2019 04:24:48 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 04:24:48 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 04:24:48 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 04:24:48 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 04:24:48 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 04:24:48 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 05:28:32 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_0ed6fdd72d951a142eb7e2597f162acf, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:28:32 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:28:32 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 56
+[18-Jul-2019 05:28:32 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 05:28:32 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 05:28:32 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 05:28:32 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 05:28:32 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 05:28:32 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 05:29:01 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_0ed6fdd72d951a142eb7e2597f162acf, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:29:01 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:29:01 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 56
+[18-Jul-2019 05:29:01 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 05:29:01 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 05:29:01 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 05:29:01 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 05:29:01 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 05:29:01 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 05:29:18 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_0ed6fdd72d951a142eb7e2597f162acf, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:29:18 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:29:18 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 56
+[18-Jul-2019 05:29:18 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 05:29:18 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 05:29:18 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 05:29:18 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 05:29:18 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 05:29:18 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 05:29:32 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_0ed6fdd72d951a142eb7e2597f162acf, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:29:32 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:29:32 America/New_York] PHP Notice:  Undefined index: ebSession in /home/finavulq/public_html/demo_app/VerifyToken.php on line 63
+[18-Jul-2019 05:29:32 America/New_York] PHP Notice:  Undefined index: username in /home/finavulq/public_html/demo_app/VerifyToken.php on line 66
+[18-Jul-2019 05:31:05 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_0ed6fdd72d951a142eb7e2597f162acf, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:31:05 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:31:05 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 56
+[18-Jul-2019 05:31:05 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 05:31:05 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 05:31:05 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 05:31:05 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 05:31:05 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 05:31:05 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 05:44:51 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_1d27f2e7b63bca70f874a99f35bdc4b9, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:44:51 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:44:51 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 56
+[18-Jul-2019 05:44:52 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 05:44:52 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 05:44:52 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 05:44:52 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 05:44:52 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 05:44:52 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 05:50:17 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_ab5f914c9f6b05a438cb66aff8dda334, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:50:17 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:50:17 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 56
+[18-Jul-2019 05:50:17 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 05:50:17 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 05:50:17 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 05:50:17 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 05:50:17 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 05:50:17 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 05:50:25 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_ab5f914c9f6b05a438cb66aff8dda334, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:50:25 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:50:25 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 56
+[18-Jul-2019 05:50:25 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 05:50:25 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 05:50:25 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 05:50:25 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 05:50:25 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 05:50:25 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 05:51:51 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_ab5f914c9f6b05a438cb66aff8dda334, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:51:51 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:51:51 America/New_York] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/finavulq/public_html/demo_app/Logout.php on line 15
+[18-Jul-2019 05:52:42 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_4033867eb5399a83216b2e004406fceb, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:52:42 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:52:42 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 56
+[18-Jul-2019 05:52:42 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 05:52:42 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 05:52:42 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 05:52:42 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 05:52:42 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 05:52:42 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 05:53:46 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_4033867eb5399a83216b2e004406fceb, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:53:46 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:53:46 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 56
+[18-Jul-2019 05:53:47 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 05:53:47 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 05:53:47 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 05:53:47 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 05:53:47 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 05:53:47 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 05:54:11 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_4033867eb5399a83216b2e004406fceb, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:54:11 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 05:54:11 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 56
+[18-Jul-2019 05:54:11 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 05:54:11 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 05:54:11 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 05:54:11 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 05:54:11 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 05:54:11 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 07:17:51 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_2f2fcb0d2d315c5775ca623c837197f4, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 07:17:51 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 07:17:51 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 56
+[18-Jul-2019 07:17:51 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 07:17:51 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 07:17:51 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 07:17:51 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 07:17:51 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 07:17:51 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 07:18:54 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_2f2fcb0d2d315c5775ca623c837197f4, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 07:18:54 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 07:18:54 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 56
+[18-Jul-2019 07:18:54 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 07:18:54 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 07:18:54 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 07:18:54 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 07:18:54 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 07:18:54 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 07:29:49 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_e0819a5f1b34ff79bfd78915bb7e4bbd, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 07:29:49 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 07:29:49 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 56
+[18-Jul-2019 07:29:49 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 07:29:49 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 07:29:49 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 07:29:49 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 07:29:49 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 07:29:49 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 07:36:26 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_4032608e1c226ae44a09a07c8cfab271, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 07:36:26 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 07:36:26 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 56
+[18-Jul-2019 07:36:26 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 07:36:26 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 07:36:26 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 07:36:26 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 07:36:26 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 07:36:26 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 07:36:31 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_4032608e1c226ae44a09a07c8cfab271, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 07:36:31 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 07:36:31 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 56
+[18-Jul-2019 07:36:31 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 07:36:31 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 07:36:31 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 07:36:31 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 07:36:31 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 07:36:31 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 07:37:04 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_4032608e1c226ae44a09a07c8cfab271, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 07:37:04 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 07:37:04 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 57
+[18-Jul-2019 07:37:04 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 07:37:04 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 07:37:04 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 07:37:04 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 07:37:04 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 07:37:04 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 08:49:52 America/New_York] PHP Notice:  Undefined index: code in /home/finavulq/public_html/demo_app/Login.php on line 2
+[18-Jul-2019 08:49:52 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_1bf684a829c2bb36449bcf12c440f95c, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 08:49:52 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 08:49:52 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 57
+[18-Jul-2019 08:49:52 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 08:49:52 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 08:49:52 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 08:49:52 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 08:49:52 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 08:49:52 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 08:50:07 America/New_York] PHP Notice:  Undefined index: code in /home/finavulq/public_html/demo_app/Login.php on line 2
+[18-Jul-2019 08:50:07 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_1bf684a829c2bb36449bcf12c440f95c, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 08:50:07 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 08:50:07 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 57
+[18-Jul-2019 08:50:07 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 08:50:07 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 08:50:07 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 08:50:07 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 08:50:07 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 08:50:07 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 08:50:31 America/New_York] PHP Notice:  Undefined index: code in /home/finavulq/public_html/demo_app/Login.php on line 2
+[18-Jul-2019 08:50:31 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_1bf684a829c2bb36449bcf12c440f95c, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 08:50:31 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 08:50:31 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 57
+[18-Jul-2019 08:50:32 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 08:50:32 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 08:50:32 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 08:50:32 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 08:50:32 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 08:50:32 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 08:50:50 America/New_York] PHP Notice:  Undefined index: code in /home/finavulq/public_html/demo_app/Login.php on line 2
+[18-Jul-2019 08:50:50 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_1bf684a829c2bb36449bcf12c440f95c, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 08:50:50 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 08:50:50 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 57
+[18-Jul-2019 08:50:50 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 08:50:50 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 08:50:50 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 08:50:50 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 08:50:50 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 08:50:50 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 08:54:06 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_1bf684a829c2bb36449bcf12c440f95c, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 08:54:06 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 08:55:03 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_1bf684a829c2bb36449bcf12c440f95c, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 08:55:03 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 08:55:46 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_1bf684a829c2bb36449bcf12c440f95c, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 08:55:46 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 23:35:17 America/New_York] PHP Notice:  Undefined index: code in /home/finavulq/public_html/demo_app/Login.php on line 2
+[18-Jul-2019 23:35:17 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_6d61f4f5124e55116d184d1b63fdd6da, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 23:35:17 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 23:35:17 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 57
+[18-Jul-2019 23:35:17 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 23:35:17 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 23:35:17 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 23:35:17 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 23:35:17 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 23:35:17 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 23:36:34 America/New_York] PHP Notice:  Undefined index: code in /home/finavulq/public_html/demo_app/Login.php on line 2
+[18-Jul-2019 23:36:34 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_6d61f4f5124e55116d184d1b63fdd6da, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 23:36:34 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 23:36:34 America/New_York] PHP Notice:  Undefined index: ItemID in /home/finavulq/public_html/demo_app/Login.php on line 57
+[18-Jul-2019 23:36:34 America/New_York] PHP Notice:  Undefined variable: days in /home/finavulq/public_html/demo_app/SingleItem.php on line 223
+[18-Jul-2019 23:36:34 America/New_York] PHP Notice:  Undefined variable: hours in /home/finavulq/public_html/demo_app/SingleItem.php on line 224
+[18-Jul-2019 23:36:34 America/New_York] PHP Notice:  Undefined variable: min in /home/finavulq/public_html/demo_app/SingleItem.php on line 225
+[18-Jul-2019 23:36:34 America/New_York] PHP Notice:  Undefined variable: sec in /home/finavulq/public_html/demo_app/SingleItem.php on line 226
+[18-Jul-2019 23:36:34 America/New_York] PHP Notice:  Trying to get property 'UserID' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 102
+[18-Jul-2019 23:36:34 America/New_York] PHP Notice:  Trying to get property 'FeedbackScore' of non-object in /home/finavulq/public_html/demo_app/SingleItem.php on line 104
+[18-Jul-2019 23:37:17 America/New_York] PHP Warning:  session_start(): open(C:/temp/sess_6d61f4f5124e55116d184d1b63fdd6da, O_RDWR) failed: No such file or directory (2) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 23:37:17 America/New_York] PHP Warning:  session_start(): Failed to read session data: files (path: C:/temp) in /home/finavulq/public_html/demo_app/sessionHeader.php on line 12
+[18-Jul-2019 23:37:17 America/New_York] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/finavulq/public_html/demo_app/Logout.php on line 15

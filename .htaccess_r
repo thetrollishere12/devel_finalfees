@@ -1,0 +1,43 @@
+DirectoryIndex index.html index.php index.htm parking-page.html
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteCond %{THE_REQUEST} \.php
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)\.php$ /$1 [R=301,L]
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteCond %{THE_REQUEST} \.html
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)\.html$ /$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^finalfees\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.finalfees\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^css\/?$ "https\:\/\/www\.finalfees\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^finalfees\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.finalfees\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^image\/?$ "https\:\/\/www\.finalfees\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^finalfees\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.finalfees\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^include\/?$ "https\:\/\/www\.finalfees\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^finalfees\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.finalfees\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^js\/?$ "https\:\/\/www\.finalfees\.com\/" [R=301,L]
+

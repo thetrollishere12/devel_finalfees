@@ -1,0 +1,270 @@
+
+    @import url(https://fonts.googleapis.com/css?family=Audiowide);
+    .total-entries{
+        margin-right: 43px;
+        display: inline-block;
+      
+        font-size:16px;
+    }
+    .item-cost{
+        background:#f9fbff;
+        width:56px;
+    }
+    .sold-table tr:first-child th:nth-child(7){
+        width:38px;
+    }
+    
+    .shipping-cost{
+        background:#f9fbff;
+        width:50px;
+    }
+    
+    
+    .sold-table thead tr th:first-child{
+        background: #1169b5;
+        border: solid 1px rgb(82, 91, 175);
+        text-align:center;
+    }
+    .sold-table tr:nth-child(1) th {
+        text-align: left;
+        padding: 3px 3px;
+        color: white;
+        font-weight: 400;
+        font-size: 11px
+        
+    }
+    
+    .sold-table tr td:nth-child(2) {
+        width:38px;
+        text-align:center;
+        
+    }
+    .sold-table tr td:nth-child(3) {
+            width:93px;
+            text-align:center;
+    }
+    
+    .sold-table tr td:nth-child(4) {
+            width:87px;
+            text-align:center;
+    }
+    
+    .sold-table thead tr th:nth-child(2) {
+        background: rgba(11,126,194,0.9);
+        border: solid 1px rgba(48,52,175,0.68);
+    }
+    
+    
+    .sold-table tr:first-child th:nth-child(3) {
+        background: rgba(255,123,76,.9);
+        border: solid 1px rgba(255,123,76,.9);
+    }
+    
+    .sold-table tr:first-child th:nth-child(4),tr:first-child th:nth-child(6) {
+
+        background: rgba(249, 154, 54, .9);
+        border: solid 1px rgba(249, 154, 54, .9);
+    }
+
+    .sold-table tr:first-child th:nth-child(5) {
+
+        background: #f46242;
+        border: solid 1px #f46242;
+    }
+
+   
+
+    
+
+    .sold-table tr:first-child th:nth-child(7) {
+        background: #3490dc;
+        border: solid 1px #3490dc;
+        width:37px;
+    }
+    
+    tr:first-child th:nth-child(9) {
+
+        background:         #059a10;
+        border: solid 1px         #059a10;
+    }
+
+    .sold-table tr:first-child th:nth-child(8) {
+
+        background: rgba(255, 193, 7, .9);
+        border: solid 1px rgba(255, 193, 7, .9);
+    }
+    tr:first-child th:nth-child(10) {
+
+        background: rgba(1, 36, 113, 0.9);
+        border: solid 1px rgba(1, 36, 113, 0.9);
+        width:51px;
+    }
+
+    .sold-table tr:first-child th:nth-child(11){
+        background: rgba(255, 193, 7, .9);
+        border: solid 1px rgba(255, 193, 7, .9);
+    }
+
+
+    .sold-table tr:first-child th:nth-child(12){
+        background: rgba(65, 11, 197, 0.8);
+        border: 1px solid rgba(65, 11, 197, 0.8);
+    }
+
+    .sold-table tr:first-child th:nth-child(13){
+        background: rgba(59, 57, 212, 0.8);
+        border: solid 1px rgba(51, 32, 39, 0.8);
+    }
+    .sold-table tr:first-child th:nth-child(14){
+        background: rgba(59, 57, 212, 0.8);
+        border: solid 1px rgba(51, 32, 39, 0.8);
+    }
+
+    .sold-table tr:first-child th:nth-child(21),.sold-table tr:first-child th:nth-child(15),.sold-table tr:first-child th:nth-child(16),.sold-table tr:first-child th:nth-child(17),tr:first-child th:nth-child(19) ,tr:first-child th:nth-child(20) {
+        background: rgba(255, 0, 0, 0.8);
+        border: solid 1px rgba(255, 122, 173, 0.8);
+    }
+    
+    .sold-table thead tr th:nth-child(18) {
+        background: rgba(37,16,215,0.9);
+        border: solid 1px rgba(48,52,175,0.68);
+    }
+
+    /*.sold-table tr:first-child th:nth-child(19){*/
+    /*    background: rgba(255, 193, 7, .9);*/
+    /*    border: solid 1px rgba(255, 193, 7, .9);*/
+    /*}*/
+
+
+    .sold-table tr:first-child th:nth-child(14),.sold-table tr:first-child th:nth-child(12),.sold-table tr:first-child th:nth-child(13),.sold-table tr:first-child th:nth-child(18),.sold-table tr:first-child th:nth-child(16),.sold-table tr:first-child th:nth-child(17){
+        width:50px;
+    }
+    .sold-table tr:first-child th:nth-child(15){
+    width:40px;    
+    }
+       
+    .paging {
+      margin: 0px auto;
+      width: 900px;
+    }
+    .paging ul {  
+      width: 100%;
+      text-align: center;
+      list-style: none;
+      padding: 10px;
+      margin: 0 auto;
+      background: #f9fbff;
+
+    }
+    .paging ul li {
+    cursor:pointer;
+      display:inline-block;
+     
+      border-right: 1px solid #d8d8d8;
+    }
+    #page-active {
+      font-weight:bolder;
+      color: black;
+      text-decoration: none;
+      padding: 0 12px;
+    }
+    
+    .page-deactive {
+    
+      color: #777;
+      text-decoration: none;
+      padding: 0 12px;
+    }
+    
+    .paging ul li a:hover {
+      color: black;
+    }
+    .paging ul li.last {
+      border-right: 0;
+    }
+    #no-data{
+        padding: 8px;
+        display:none;
+
+    }
+    
+    .empty-data{
+        padding: 8px;
+        
+    }
+
+    .text-center{
+        text-align: center;
+    }
+    .alert{
+        width:30%;
+    }
+
+    .sold-table {
+        width:100%;
+        border-collapse: collapse;
+        color: #4c4c4c;
+        min-width: 1000px
+    }
+    .no-point{
+
+        pointer-events: none;
+
+    }
+
+    .sold-table input {
+        border:none;
+        padding:3px;
+        font-size: 11px;
+        height: 28px
+    }
+
+
+
+    .empty{
+        background:transparent !important;
+        border:none !important;
+    }
+    
+    .import-table{
+        justify-content: space-between!important;
+        display:flex;
+    }
+
+
+
+    .auto_image{
+        padding:0px !important;
+        height:26px !important;
+        margin-top:5px;
+    }
+
+    .sold-table input:focus {
+        background: rgba(52, 144, 220, .1);
+        outline: none;
+        color: #007bff
+    }
+
+    
+    
+    table tr td{
+        border: 1px solid #eaeaea;
+    }
+
+    .table-val{
+        pointer-events: none;
+        /*border: solid 1px #eaeaea;*/
+        width: 100%;
+        padding: 3px;
+        font-size: 11px;
+        height: auto;
+
+    }
+
+    .sold-table thead, .sold-table tbody{
+        border:1px solid #e4e4e4;
+    }
+
+    .sold-table tbody tr td:first-child{
+        text-align: center;
+    }

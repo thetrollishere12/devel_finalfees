@@ -1,0 +1,163 @@
+.main-container h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    background: #86b817;
+}
+.ebay-inner {
+    padding: 25px;
+    font-size: 17px;
+    background: #fff;
+}
+#category-slide {
+    display: none;
+}
+.details-container h2 {
+    color: #fff;
+    background: #86b817;
+}
+.half-padding {
+    padding-bottom: 6px;
+}
+.upgrade-container {
+    margin: 0 0 15px 0;
+}
+.container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin: 6px 0 6px 36.5px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    background-color: #eee;
+}
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+.container input:checked ~ .checkmark {
+    background-color: #86b817;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+.container .checkmark:after {
+    left: 8px;
+    top: 3px;
+    width: 7px;
+    height: 14px;
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.upgrade-cost {
+    color: #86b817;
+    font-size: 12px;
+}
+.grey {
+    color: #cecece;
+}
+.main-container {
+    background: 0 0 !important;
+    box-shadow: none !important;
+}
+.whole-calculator {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.25);
+}
+.country-container {
+    display: flex;
+    text-align: center;
+}
+.country-container div {
+    padding: 3px;
+    margin: 0px 10px;
+}
+
+.country-container img{
+	width: 50px;
+}
+
+.country-container figcaption{
+	font-size: 12px;
+	padding: 6px 0px 3px 0px;
+	color: black;
+	transition:.3s;
+}
+
+.country-container div:hover figcaption{
+	color: #5998ff;
+}
+
+    .bb{
+        color: #5998ff;
+    }
+
+    .bbb{
+        background:#5998ff !important;
+    }
+
+    .about-container button{
+        background: #5998ff;
+        border: none;
+        border-radius: 3px;
+        color: #fff;
+        margin: 6px 10px 6px 0px;
+        padding: 8px 24px;
+        cursor: pointer;
+        outline: 0;
+    }
+
+
+@media only screen and (min-width: 0) {
+
+    .about-fees {
+        margin: auto auto 10px auto !important;
+    }
+
+}
+@media only screen and (min-width: 500px) {
+
+    .about-fees {
+        margin: auto auto 30px auto !important;
+    }
+
+}
+@media only screen and (min-width: 800px) {
+
+    .about-fees {
+        margin: auto auto 40px auto !important;
+    }
+
+}
+@media only screen and (min-width: 1050px) {
+
+    .about-fees {
+        margin: 40px auto auto auto !important;
+    }
+
+}

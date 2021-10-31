@@ -1,0 +1,547 @@
+@media only screen and (min-width:0) {
+    .spreadsheet-inner {
+        display: block
+    }
+    .spreadsheet-container {
+        width: 100%;
+        padding: 10px 0 0 0
+    }
+    .spreadsheet-list-container {
+        width: 100%
+    }
+    .sheet-ul {
+        height: 25vh
+    }
+    .expense-grid,
+    .spreadsheet-grid {
+        margin: 10px 0 0 0
+    }
+}
+
+@media only screen and (min-width:1100px) {
+    .spreadsheet-inner {
+        display: flex;
+        justify-content: space-between
+    }
+    .spreadsheet-container {
+        width: 80%;
+        padding: 0 5px
+    }
+    .spreadsheet-list-container {
+        width: 20%
+    }
+    .sheet-ul {
+        height: 50vh
+    }
+    .expense-grid,
+    .spreadsheet-grid {
+        margin: 0
+    }
+}
+
+.spreadsheet-list a {
+    color: #000
+}
+
+main {
+    padding: 10px
+}
+
+.upgrade-case {
+    position: relative
+}
+
+.upgrade-case:hover {
+    background: #fff
+}
+
+.upgrade-case img {
+    width: 100%
+}
+
+.upgrade-case section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 20px
+}
+
+.upgrade-case p:nth-child(2) {
+    color: #3490dc
+}
+
+.upgrade-case a {
+    color: #3490dc
+}
+
+.spreadsheet-container {
+    position: relative
+}
+
+.load_ctn {
+    z-index: 15;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, .8);
+    width: 100%;
+    height: 100%
+}
+
+.preloader {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px
+}
+
+.spreadsheet-list-container {
+    border: solid 1px rgba(0, 0, 0, .25);
+    background: #fff;
+    height: 0%
+}
+
+#spreadsheet_title {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    font-size: 25px;
+    border: solid 1px rgba(0, 0, 0, .25);
+    border-bottom: none
+}
+
+.spreadsheet-summary {
+    display: flex;
+    border-left: transparent;
+    overflow-x: scroll;
+    width: 100%;
+    border: solid 1px rgba(0, 0, 0, .25)
+}
+
+.spreadsheet-summary .summary-case {
+    min-width: 400px;
+    margin: 2.5px
+}
+
+.summary-case div {
+    border: solid 1px #eaeaea;
+    background: #fff;
+    height: 92%
+}
+
+.summary-case p:first-child {
+    color: #3490dc
+}
+
+.summary-case:nth-child(1) div {
+    padding: 40px 15px 15px 15px
+}
+
+.summary-case:nth-child(2) div {
+    padding: 35px 15px 15px 15px
+}
+
+.summary-case:nth-child(3) div {
+    padding: 40px 15px 15px 15px
+}
+
+.summary-case:nth-child(4) div {
+    padding: 15px
+}
+
+.spreadsheet-numbers p:nth-child(1) {
+    color: rgba(249, 154, 54, .9)
+}
+
+.spreadsheet-numbers p:nth-child(2),
+p:nth-child(4) {
+    color: rgba(0, 123, 255, .9)
+}
+
+.spreadsheet-numbers p:nth-child(3),
+p:nth-child(5) {
+    color: rgba(255, 193, 7, .9)
+}
+
+.spreadsheet-numbers p:nth-child(9) {
+    color: rgba(247, 104, 32, .9)
+}
+
+.spreadsheet-numbers p:nth-child(6),
+p:nth-child(7),
+p:nth-child(8) {
+    color: rgba(226, 40, 58, .9)
+}
+
+.spreadsheet-numbers p:nth-child(10) {
+    color: rgba(40, 167, 69, .9)
+}
+
+.expense-grid::-webkit-scrollbar,
+.filter-container::-webkit-scrollbar,
+.spreadsheet-grid::-webkit-scrollbar,
+.spreadsheet-summary::-webkit-scrollbar {
+    height: 7px
+}
+
+.sheet-ul::-webkit-scrollbar {
+    width: 8px
+}
+
+.expense-grid::-webkit-scrollbar-track,
+.filter-container::-webkit-scrollbar-track,
+.sheet-ul::-webkit-scrollbar-track,
+.spreadsheet-grid::-webkit-scrollbar-track,
+.spreadsheet-summary::-webkit-scrollbar-track {
+    background: #f1f1f1
+}
+
+.expense-grid::-webkit-scrollbar-thumb,
+.filter-container::-webkit-scrollbar-thumb,
+.sheet-ul::-webkit-scrollbar-thumb,
+.spreadsheet-grid::-webkit-scrollbar-thumb,
+.spreadsheet-summary::-webkit-scrollbar-thumb {
+    background: #888
+}
+
+.expense-grid::-webkit-scrollbar-thumb:hover,
+.filter-container::-webkit-scrollbar-thumb:hover,
+.sheet-ul::-webkit-scrollbar-thumb:hover,
+.spreadsheet-grid::-webkit-scrollbar-thumb:hover,
+.spreadsheet-summary::-webkit-scrollbar-thumb:hover {
+    background: #555
+}
+
+.spreadsheet-list {
+    position: relative;
+    padding-bottom: 42px;
+    background: #fff
+}
+
+.spreadsheet-list h2 {
+    padding: 5px 0 5px 10px;
+    font-weight: 400;
+    font-size: 20px;
+    border-bottom: solid 1px #eaeaea
+}
+
+.sheet-ul {
+    overflow-y: scroll
+}
+
+.spreadsheet-name {
+    position: relative;
+    transition: .1s
+}
+
+.h-grey:hover {
+    cursor: pointer;
+    background: #e8e8e8
+}
+
+.b-click {
+    background: #3490dc;
+    color: #fff
+}
+
+.spreadsheet-name-list {
+    text-align: left;
+    width: 100%;
+    background: 0 0;
+    border: none;
+    padding: 5px 5px 5px 20px
+}
+
+.fix-btn {
+    background: 0 0;
+    border: none;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    font-size: 15px;
+    padding: 0 5px;
+    cursor: pointer
+}
+
+.create-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: solid 1px #eaeaea;
+    background: #fff;
+    padding: 0 10px
+}
+
+.new_sheet_btn {
+    font-size: 11px;
+    width: 100%;
+    text-align: center
+}
+
+.list_delete {
+    background: #c82333;
+    color: #fff;
+    border: none;
+    padding: 6px 18px;
+    border-radius: 4px;
+    cursor: pointer
+}
+
+.expense-grid,
+.spreadsheet-grid {
+    font-size: 13px;
+    overflow-x: scroll;
+    border: solid 1px rgba(0, 0, 0, .25);
+    padding: 2.5px
+}
+
+table {
+    border-collapse: collapse;
+    color: #4c4c4c;
+    min-width: 1000px
+}
+
+table input {
+    pointer-events: none;
+    border: solid 1px #eaeaea;
+    width: 100%;
+    padding: 3px;
+    font-size: 11px;
+    height: 28px
+}
+
+table input:focus {
+    background: rgba(52, 144, 220, .1);
+    outline: 0;
+    color: #007bff
+}
+
+table tr:nth-child(1) th {
+    text-align: left;
+    padding: 3px 3px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 11px
+}
+
+table tr:first-child th:nth-child(1) {
+    background: rgba(255, 123, 76, .9);
+    border: solid 1px rgba(255, 123, 76, .9)
+}
+
+.expense-grid table tr:first-child th:nth-child(4),
+.expense-grid table tr:first-child th:nth-child(5),
+table tr:first-child th:nth-child(2) {
+    background: rgba(249, 154, 54, .9);
+    border: solid 1px rgba(249, 154, 54, .9)
+}
+
+table tr:first-child th:nth-child(3) {
+    background: rgba(76, 175, 80, .8);
+    border: solid 1px rgba(76, 175, 80, .8)
+}
+
+.spreadsheet-grid table tr:first-child th:nth-child(4),
+.spreadsheet-grid tr:first-child th:nth-child(6) {
+    background: #3490dc;
+    border: solid 1px #3490dc
+}
+
+.spreadsheet-grid table tr:first-child th:nth-child(5),
+.spreadsheet-grid tr:first-child th:nth-child(7) {
+    background: rgba(255, 193, 7, .9);
+    border: solid 1px rgba(255, 193, 7, .9)
+}
+
+.spreadsheet-grid table tr:first-child th:nth-child(8),
+tr:first-child th:nth-child(10),
+tr:first-child th:nth-child(11),
+tr:first-child th:nth-child(9) {
+    background: rgba(200, 35, 51, .8);
+    border: solid 1px rgba(200, 35, 51, .8)
+}
+
+.expense-grid table tr:first-child th:nth-child(6),
+.expense-grid table tr:first-child th:nth-child(7) {
+    background: rgba(247, 104, 32, .8);
+    border: solid 1px rgba(247, 104, 32, .8)
+}
+
+.spreadsheet-grid table tr:first-child th:nth-child(12) {
+    background: rgba(76, 175, 80, .8);
+    border: solid 1px #4caf50
+}
+
+ul button {
+    display: block
+}
+
+.expense_edit,
+.sales_edit {
+    background: #3490dc;
+    color: #fff;
+    border: none;
+    width: 40px;
+    padding: 3px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: .5px 1px
+}
+
+.expense_delete,
+.sales_delete {
+    background: #c82333;
+    color: #fff;
+    border: none;
+    padding: 3px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: .5px 1px;
+    visibility: hidden
+}
+
+.empty_btn {
+    background: #3490dc;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer
+}
+
+.filter-container {
+    border: solid 1px rgba(0, 0, 0, .25);
+    border-bottom: none;
+    padding: 3px 5px;
+    margin: 2.5px 0 0 0;
+    color: #3490dc;
+    font-size: 13px;
+    background: #fff;
+    overflow-x: scroll
+}
+
+.filter-inner {
+    min-width: 1000px;
+    display: flex;
+    align-items: center
+}
+
+.filter-container button,
+.filter-container input {
+    height: 25px
+}
+
+.search_btn {
+    background: #3490dc;
+    border: none;
+    padding: 2px 4px;
+    color: #fff;
+    cursor: pointer
+}
+
+.icon-search {
+    vertical-align: middle
+}
+
+.popup_status {
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    display: none;
+    color: #fff;
+    padding: .5rem 20px !important;
+    width: 200px
+}
+
+.reset_filter {
+    background: #3490dc;
+    color: #fff;
+    border: none;
+    padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 6px
+}
+
+select[name=year] {
+    margin: 0 0 3px 27px
+}
+
+.reset_btn {
+    border: none;
+    background: #c82333;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 4px
+}
+
+.print_btn {
+    background: #4caf50;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    padding: 4px 8px;
+    vertical-align: center;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#download_btn{
+    background: #4caf50;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    padding: 4px 8px;
+    vertical-align: center;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.sub-spreadsheet {
+    display: none;
+    background: #f5f5f5
+}
+
+.s-click {
+    background: #f99a36;
+    color: #fff
+}
+
+#spreadsheet_title span {
+    padding: 0 10px;
+    color: #000
+}
+
+#spreadsheet_title .selected-blue {
+    background: #3490dc;
+    color: #fff !important
+}
+
+.profit-case {
+    font-size: 11px;
+    height: 28px !important;
+    .th-case {
+        display: flex;
+        align-items: center
+    }
+    .th-case div {
+        background: #fff;
+        color: #000;
+        height: 100%;
+        padding: 4px 3px;
+        border: solid 1px #eaeaea;
+        font-weight: 400
+    }
+    select[name=currency] {
+        pointer-events: none;
+        padding: 3px;
+        border: solid 1px #eaeaea
+    }
+}

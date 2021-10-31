@@ -1,0 +1,49 @@
+.main-container h1{font-size:30px;text-align:center;padding:20px;color:white;background:#262626}.grailed-inner{padding:25px;font-size:17px}.details-container h2{color:white;background:#262626}
+	.bb{
+		color: #5998ff;
+	}
+
+	.bbb{
+		background:#5998ff !important;
+	}
+
+	.about-container button{
+		background: #5998ff;
+	    border: none;
+	    border-radius: 3px;
+	    color: #fff;
+	    margin: 6px 10px 6px 0px;
+	    padding: 8px 24px;
+	    cursor: pointer;
+	    outline: 0;
+	}
+
+
+@media only screen and (min-width: 0) {
+
+    .about-fees {
+        margin: auto auto 10px auto !important;
+    }
+
+}
+@media only screen and (min-width: 500px) {
+
+    .about-fees {
+        margin: auto auto 30px auto !important;
+    }
+
+}
+@media only screen and (min-width: 800px) {
+
+    .about-fees {
+        margin: auto auto 40px auto !important;
+    }
+
+}
+@media only screen and (min-width: 1050px) {
+
+    .about-fees {
+        margin: 40px auto auto auto !important;
+    }
+
+}

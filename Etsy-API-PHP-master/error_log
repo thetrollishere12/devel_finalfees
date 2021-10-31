@@ -1,0 +1,104 @@
+[06-Sep-2019 08:17:19 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 3
+[06-Sep-2019 08:17:19 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 4
+[06-Sep-2019 08:17:19 America/New_York] PHP Fatal error:  Uncaught Error: Class 'OAuth' not found in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 5
+[09-Sep-2019 05:59:34 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 4
+[09-Sep-2019 05:59:34 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 5
+[09-Sep-2019 05:59:34 America/New_York] PHP Fatal error:  Uncaught OAuthException: Invalid auth/bad request (got a 411, expected HTTP/1.1 20X or a redirect) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php:7
+Stack trace:
+#0 /home/finavulq/public_html/Etsy-API-PHP-master/init2.php(7): OAuth->getRequestToken('http://openapi....', 'oob')
+#1 {main}
+  thrown in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 7
+[09-Sep-2019 06:00:10 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 4
+[09-Sep-2019 06:00:10 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 5
+[09-Sep-2019 06:00:10 America/New_York] PHP Fatal error:  Uncaught OAuthException: Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php:7
+Stack trace:
+#0 /home/finavulq/public_html/Etsy-API-PHP-master/init2.php(7): OAuth->getRequestToken('http://openapi....', 'oob')
+#1 {main}
+  thrown in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 7
+[09-Sep-2019 06:00:59 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 4
+[09-Sep-2019 06:00:59 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 5
+[09-Sep-2019 06:00:59 America/New_York] PHP Fatal error:  Uncaught OAuthException: Invalid auth/bad request (got a 411, expected HTTP/1.1 20X or a redirect) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php:10
+Stack trace:
+#0 /home/finavulq/public_html/Etsy-API-PHP-master/init2.php(10): OAuth->getRequestToken('http://openapi....', 'oob')
+#1 {main}
+  thrown in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 10
+[09-Sep-2019 06:02:26 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 4
+[09-Sep-2019 06:02:26 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 5
+[09-Sep-2019 06:02:26 America/New_York] PHP Fatal error:  Uncaught OAuthException: Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php:10
+Stack trace:
+#0 /home/finavulq/public_html/Etsy-API-PHP-master/init2.php(10): OAuth->getRequestToken('http://openapi....', 'oob')
+#1 {main}
+  thrown in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 10
+[09-Sep-2019 06:02:28 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 4
+[09-Sep-2019 06:02:28 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 5
+[09-Sep-2019 06:02:28 America/New_York] PHP Fatal error:  Uncaught OAuthException: Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php:10
+Stack trace:
+#0 /home/finavulq/public_html/Etsy-API-PHP-master/init2.php(10): OAuth->getRequestToken('http://openapi....', 'oob')
+#1 {main}
+  thrown in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 10
+[09-Sep-2019 06:03:00 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 4
+[09-Sep-2019 06:03:00 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 5
+[09-Sep-2019 06:03:00 America/New_York] PHP Fatal error:  Uncaught OAuthException: Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php:10
+Stack trace:
+#0 /home/finavulq/public_html/Etsy-API-PHP-master/init2.php(10): OAuth->getRequestToken('http://openapi....', 'oob')
+#1 {main}
+  thrown in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 10
+[09-Sep-2019 06:03:02 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 4
+[09-Sep-2019 06:03:02 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 5
+[09-Sep-2019 06:03:02 America/New_York] PHP Fatal error:  Uncaught OAuthException: Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php:10
+Stack trace:
+#0 /home/finavulq/public_html/Etsy-API-PHP-master/init2.php(10): OAuth->getRequestToken('http://openapi....', 'oob')
+#1 {main}
+  thrown in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 10
+[09-Sep-2019 06:03:06 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 4
+[09-Sep-2019 06:03:06 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 5
+[09-Sep-2019 06:03:06 America/New_York] PHP Fatal error:  Uncaught OAuthException: Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php:10
+Stack trace:
+#0 /home/finavulq/public_html/Etsy-API-PHP-master/init2.php(10): OAuth->getRequestToken('http://openapi....', 'oob')
+#1 {main}
+  thrown in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 10
+[09-Sep-2019 06:06:20 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 4
+[09-Sep-2019 06:06:20 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 5
+[09-Sep-2019 06:06:21 America/New_York] PHP Fatal error:  Uncaught OAuthException: Invalid auth/bad request (got a 411, expected HTTP/1.1 20X or a redirect) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php:10
+Stack trace:
+#0 /home/finavulq/public_html/Etsy-API-PHP-master/init2.php(10): OAuth->getRequestToken('http://openapi....', 'oob')
+#1 {main}
+  thrown in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 10
+[09-Sep-2019 06:17:52 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 6
+[09-Sep-2019 06:17:52 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 7
+[09-Sep-2019 06:19:53 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 6
+[09-Sep-2019 06:19:53 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 7
+[09-Sep-2019 06:19:53 America/New_York] PHP Fatal error:  Uncaught OAuthException: Invalid auth/bad request (got a 401, expected HTTP/1.1 20X or a redirect) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php:10
+Stack trace:
+#0 /home/finavulq/public_html/Etsy-API-PHP-master/init2.php(10): OAuth->getRequestToken('https://openapi...', 'oob', 'GET')
+#1 {main}
+  thrown in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 10
+[09-Sep-2019 09:10:23 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 6
+[09-Sep-2019 09:10:23 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 7
+[09-Sep-2019 09:10:23 America/New_York] Invalid auth/bad request (got a 401, expected HTTP/1.1 20X or a redirect)
+[09-Sep-2019 09:10:25 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 6
+[09-Sep-2019 09:10:25 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 7
+[09-Sep-2019 09:10:26 America/New_York] Invalid auth/bad request (got a 401, expected HTTP/1.1 20X or a redirect)
+[09-Sep-2019 09:10:27 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 6
+[09-Sep-2019 09:10:27 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 7
+[09-Sep-2019 09:10:28 America/New_York] Invalid auth/bad request (got a 401, expected HTTP/1.1 20X or a redirect)
+[09-Sep-2019 09:10:30 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 6
+[09-Sep-2019 09:10:30 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 7
+[09-Sep-2019 09:10:30 America/New_York] Invalid auth/bad request (got a 401, expected HTTP/1.1 20X or a redirect)
+[09-Sep-2019 09:10:59 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 6
+[09-Sep-2019 09:10:59 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 7
+[09-Sep-2019 09:10:59 America/New_York] Invalid auth/bad request (got a 401, expected HTTP/1.1 20X or a redirect)
+[09-Sep-2019 09:11:01 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 6
+[09-Sep-2019 09:11:01 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 7
+[09-Sep-2019 09:11:01 America/New_York] Invalid auth/bad request (got a 401, expected HTTP/1.1 20X or a redirect)
+[09-Sep-2019 09:11:03 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 6
+[09-Sep-2019 09:11:03 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 7
+[09-Sep-2019 09:11:03 America/New_York] Invalid auth/bad request (got a 401, expected HTTP/1.1 20X or a redirect)
+[16-Sep-2019 00:54:57 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 6
+[16-Sep-2019 00:54:57 America/New_York] PHP Warning:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' (this will throw an Error in a future version of PHP) in /home/finavulq/public_html/Etsy-API-PHP-master/init2.php on line 7
+[16-Sep-2019 00:54:57 America/New_York] Invalid auth/bad request (got a 401, expected HTTP/1.1 20X or a redirect)
+[16-Sep-2019 00:57:12 America/New_York] Invalid auth/bad request (got a 401, expected HTTP/1.1 20X or a redirect)
+[16-Sep-2019 00:58:00 America/New_York] Invalid auth/bad request (got a 401, expected HTTP/1.1 20X or a redirect)

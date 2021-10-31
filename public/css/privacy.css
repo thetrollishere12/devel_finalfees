@@ -1,0 +1,49 @@
+@media only screen and (min-width:0px) {
+    .privacy-container{
+    	margin: 10px auto;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .privacy-container{
+    	margin: 25px auto;
+    }
+}
+
+
+.privacy-container{
+	max-width: 800px;
+	background: white;
+	padding: 25px;
+	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .25);
+	color: #384247;
+	border-radius: 4px;
+}
+
+.text-container{
+	border-bottom: solid 1px #eaeaea;
+	padding-bottom: 15px;
+}
+
+h1{
+	font-size: 33px;
+	padding-bottom: 15px;
+}
+
+h2{
+	font-size: 20px;
+	padding: 15px 0px 10px 0px;
+	color: #3490dc;
+}
+
+p{
+	padding: 6px 0px;
+}
+
+ol{
+	padding-left:25px;
+}
+
+a{
+	color: #5aa5e2;
+}

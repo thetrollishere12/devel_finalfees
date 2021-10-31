@@ -1,0 +1,308 @@
+	.auto-inner a{color:inherit}ul button{display:block}.popup_status{position:fixed;top:80%;left:50%;transform:translate(-50%,-50%);z-index:10;display:none;color:#fff}.import-table{padding-bottom:5px}.navbar.navbar-light .navbar-nav .nav-item .nav-link{color:#fff!important;-webkit-transition:.35s;transition:.35s}
+
+.extension-container{
+	max-width: 1400px;
+	margin: auto;
+}
+
+.extension-sheet{
+    max-width: 1400px;
+    margin: auto;
+}
+
+table{
+	text-align: left;
+	border-collapse: collapse;
+	color: #4c4c4c;
+	min-width: 1400px;
+}
+
+table tr:nth-child(1) .th-top {
+    text-align: left;
+    padding: 6px 3px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 11px;
+}
+
+table tr:first-child th:nth-child(2) {
+    background: rgba(255,123,76,.9);
+    border: solid 1px rgba(255,123,76,.9);
+}
+
+table tr:first-child th:nth-child(3) {
+    background: rgba(255,123,76,.9);
+    border: solid 1px rgba(255,123,76,.9);
+}
+
+table tr:first-child th:nth-child(4) {
+    background: rgba(249,154,54,.9);
+    border: solid 1px rgba(249,154,54,.9);
+}
+
+table tr:first-child th:nth-child(5) {
+    background: rgba(76,175,80,.8);
+    border: solid 1px rgba(76,175,80,.8);
+}
+
+table tr:first-child th:nth-child(6), tr:first-child th:nth-child(8) {
+    background: #3490dc;
+    border: solid 1px #3490dc;
+}
+
+table tr:first-child th:nth-child(7), tr:first-child th:nth-child(9) {
+    background: rgba(255,193,7,.9);
+    border: solid 1px rgba(255,193,7,.9);
+}
+
+table tr:first-child th:nth-child(10), tr:first-child th:nth-child(12), tr:first-child th:nth-child(13), tr:first-child th:nth-child(11) {
+    background: rgba(200,35,51,.8);
+    border: solid 1px rgba(200,35,51,.8);
+}
+
+table tr:first-child th:nth-child(14) {
+    background: rgba(76,175,80,.8);
+    border: solid 1px #4caf50;
+}
+
+table input {
+    border: solid 1px #eaeaea;
+    width: 100%;
+    padding: 3px;
+    font-size: 11px;
+    height: 28px;
+}
+
+table .table-val{
+	pointer-events: none;
+}
+
+table .table-input{
+	background: #edf5ff !important;
+}
+
+table input:focus {
+    background: rgba(52, 144, 220, .1);
+    outline: 0;
+    color: #007bff
+}
+
+.checkbox-name{
+	width: 200px !important;
+	text-overflow: ellipsis;
+}
+
+.checkbox-text{
+	pointer-events: none;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: hidden;
+    padding: 5.5px;
+    font-size: 11px;
+    height: auto;
+    font-weight: normal;
+    border: solid 1px #eaeaea;
+}
+
+.option-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    top: 0.8px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    transition: all 0.15s ease-out 0s;
+    background: #ededed;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin: auto;
+    outline: 0;
+    position: relative;
+    z-index: 999;
+    margin-right: 5px;
+}
+
+.all-check,.fee-checkbox{
+	z-index: 1;
+}
+
+.option-input:hover {
+    background: #cfcfcf;
+}
+.option-input:focus {
+    color: #fff !important;
+}
+.option-input:checked {
+    background: #70bf73;
+}
+.option-input:checked::before {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    content: "✔";
+    left: 3px;
+    display: inline-block;
+    font-size: 16.66667px;
+    text-align: center;
+    line-height: 16px;
+}
+
+.input-img-th{
+	text-align: center;
+}
+
+.input-img{
+	height: 20px;
+}
+
+.poshmark-container, .depop-container, .grailed-container{
+	overflow-x: scroll;
+	padding: 0px 0px 5px 0px;
+	margin-bottom:15px;
+}
+
+
+.poshmark-container::-webkit-scrollbar,
+.depop-container::-webkit-scrollbar,
+.grailed-container::-webkit-scrollbar{
+    height: 7px
+}
+
+.poshmark-container::-webkit-scrollbar-track,
+.depop-container::-webkit-scrollbar-track,
+.grailed-container::-webkit-scrollbar-track{
+    background: #f1f1f1
+}
+
+.poshmark-container::-webkit-scrollbar-thumb,
+.depop-container::-webkit-scrollbar-thumb,
+.grailed-container::-webkit-scrollbar-thumb {
+    background: #888
+}
+
+.poshmark-container::-webkit-scrollbar-thumb:hover,
+.depop-container::-webkit-scrollbar-thumb:hover,
+.grailed-container::-webkit-scrollbar-thumb:hover {
+    background: #555
+}
+
+.poshmark-h2{
+	background:#822432;
+	color: white;
+	font-weight: normal;
+	border-radius:5px;
+	width: 100%;
+	padding: 5px 10px;
+	margin-top:15px;
+	margin-bottom:5px;
+}
+
+.depop-h2{
+	background:#f44336;
+	color: white;
+	font-weight: normal;
+	border-radius:5px;
+	width: 100%;
+	padding: 5px 10px;
+	margin-top:15px;
+	margin-bottom:5px;
+}
+
+.grailed-h2{
+	background:black;
+	color: white;
+	font-weight: normal;
+	border-radius:5px;
+	width: 100%;
+	padding: 5px 10px;
+	margin-top:15px;
+	margin-bottom:5px;
+}
+
+
+.msg {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.05);
+    z-index: 999;
+}
+.msg-success {
+    background-color: #28a745;
+}
+.msg-warning {
+    color: #6d5200;
+    background-color: #ffc107;
+}
+.msg-danger {
+    background-color: #dc3545;
+}
+.msg-info {
+    background-color: #17a2b8;
+}
+.animate {
+    opacity: 0;
+    transition: all 1s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.animate.active {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%);
+}
+.slide-in-down {
+    transform: translateY(-100%) translateX(-50%);
+}
+
+.load_ctn {
+    z-index: 15;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: 100%;
+}
+.preloader {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+}
+
+.extension-sheet{
+	margin-bottom: 10px;
+}
+
+.delete-selected-sales{
+    background:rgba(226, 40, 58, .9);
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    padding: 5px 15px;
+    cursor: pointer;
+    outline: 0;
+}
+
+.delete-selected-disabled{
+    background: #ededed !important;
+    color: #949494 !important;
+}
